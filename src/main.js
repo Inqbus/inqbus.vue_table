@@ -1,18 +1,18 @@
 import Vue from 'vue'
 import App from './App.vue'
-import vueCustomElement from 'vue-custom-element'
+// import vueCustomElement from 'vue-custom-element'
 
-Vue.config.productionTip = false;
+//Vue.config.productionTip = false;
 
-Vue.use(vueCustomElement);
-
-
-Vue.customElement('vue-widget', App);
+//Vue.use(vueCustomElement);
 
 
-/*
-Done by Vue.customElement
+//Vue.customElement('vue-widget', App);
+
+
+
+//Done by Vue.customElement
 new Vue({
   render: h => h(App),
-}).$mount('#app')
-*/
+}).$mount('#app');
+
