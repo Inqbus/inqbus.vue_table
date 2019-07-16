@@ -14,5 +14,5 @@ import App from './App.vue'
 //Done by Vue.customElement
 new Vue({
   render: h => h(App),
-}).$mount('#app');
+}).$mount('#app_is_cool');
 
